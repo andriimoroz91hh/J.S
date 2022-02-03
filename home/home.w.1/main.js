@@ -18,11 +18,16 @@ let firstName = `andriy`;
 let middleName = `moroz`;
 let lastName = `mukolayovuch`;
 let datum = 1991;
-let person = [firstName,middleName,lastName,datum];
+let person = firstName + middleName  + lastName;
 console.log(person);
-prompt(firstName);
-prompt(lastName);
-prompt(datum);
+let firstName2 = prompt(`andriy`);
+let lastName2 = prompt(`moroz`);
+let datum2 = prompt(1991 );
+
+console.log(firstName2);
+console.log(lastName2);
+console.log(datum2);
+
 let a = 100;
 console.log(typeof a);
 let b = `100`;
