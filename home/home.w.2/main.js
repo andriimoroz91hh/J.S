@@ -37,7 +37,7 @@ else {
 let test = `qwerty`;
 if (test === true ) {
     console.log(`true`)
-}
+ }
 else {
     console.log(`not true`)
 }
